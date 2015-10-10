@@ -1,0 +1,47 @@
+.cheese{
+	list-style: none;
+	padding-left:20px;
+	background:url('img/pie.gif') no-repeat 0 0;
+}
+.text{
+	color: black;
+	font-size: 11pt;
+	font-family: Georgia;
+}
+.link{
+	color: #A4A400;
+	font-size: 11pt;
+	font-family: Georgia;
+}
+.comment{
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 11pt;
+	font-style: italic;
+	background-color: #FFFFC8;
+}
+body{
+	background:url('img/silverware.jpg');
+	background-attachment: fixed;
+}
+h1{
+	text-decoration: underline;
+	letter-spacing: 0.2em;
+	text-align: center;
+	font-size: 22pt;
+	font-family: Century Gothic;
+	background-color: #F0F0F0;
+	color: #A4A400;
+}
+h2{
+	text-decoration: underline;
+	letter-spacing: 0.2em;
+	text-align: left;
+	font-size: 18pt;
+	font-family: Century Gothic;
+	background-color: #F0F0F0;
+	color: #A4A400;
+}
+img{
+	text-decoration: none;
+}

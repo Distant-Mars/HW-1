@@ -1,0 +1,29 @@
+a{
+	text-decoration: none;
+}
+body{
+	background-image: url('img/background.jpg');
+}
+em{
+	color: white;
+	font-size: 15pt;
+}
+
+
+#leftTool{
+	position: fixed;
+	left: 0;
+	top:0;
+	width: 60px;
+	height: 30px;
+	background: rgba(210,105,30,0.6);
+}
+.button{
+	position: absolute;
+}
+
+.photo{
+	position: absolute;
+	widows: 200px;
+	height: 200px;
+}

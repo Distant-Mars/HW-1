@@ -1,9 +1,12 @@
 var clickbool = true;
 var movebool = false;
 var pit = new Array();
+
+/* ------jquery函数，大意是文件准备后执行里面的函数，一般用来初始化------*/
 $(document).ready(function() {
 	newGame();
 });
+/* ------初始化界面和一些数据------*/
 function newGame() {
 	for (var i = 0; i < 5; i++) {
 		var temp = $("#contain"+i);
@@ -34,6 +37,11 @@ function newGame() {
 		ind.css('opacity', 0.6);
 		pit[5] = 1;
 }
+/*---------------------------------*/
+
+
+
+/*-------点击菜单打开---------*/
 function onTouch() {
 	if (clickbool) {
 		for (var i = 0; i < 6; i++) {
@@ -55,6 +63,10 @@ function onTouch() {
 		outTouch();
 	}
 }
+/*------------------------*/
+
+
+/*------菜单回缩------*/
 function outTouch() {
 	var temp = $("#leftTool");
 	temp.animate({
@@ -69,6 +81,11 @@ function outTouch() {
 			}, 200);
 	}
 }
+/*--------------------------*/
+
+
+/*----分别对每个糕点图片鼠标悬停设置相应行为-----
+------不太会批量设置,辛苦观看了：）------*/
 function over0() {
 	if (movebool) {
 		var inin = $("#contain0");
@@ -165,6 +182,10 @@ function over5() {
 		}, 400);
 	}
 }
+/*--------------------------*/
+
+
+/*-------鼠标离开的行为------*/
 function out0() {
 	if (movebool) {
 			var inin = $("#contain0");
@@ -321,3 +342,5 @@ function out5() {
 			}
 	}
 }
+
+/*-------------------*/

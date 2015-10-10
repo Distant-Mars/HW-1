@@ -1,3 +1,4 @@
+/*-----一些小细节的优化和设置背景图片-----*/
 a{
 	text-decoration: none;
 }
@@ -9,17 +10,17 @@ em{
 	font-size: 15pt;
 }
 
-
+/*-------菜单的样式设置-----*/
 #leftTool{
 	position: fixed;
 	left: 0;
 	top:0;
 	width: 60px;
 	height: 30px;
-	background: rgba(210,105,30,0.6);
+	background: rgba(210,105,30,0.6); /*---设置透明度---*/
 }
 .button{
-	position: absolute;
+	position: absolute;   /*----定位图片----*/
 }
 
 .photo{

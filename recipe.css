@@ -1,7 +1,7 @@
 .cheese{
 	list-style: none;
 	padding-left:20px;
-	background:url('img/pie.gif') no-repeat 0 0;
+	background:url('http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif') no-repeat 0 0;
 }
 .text{
 	color: black;
@@ -21,7 +21,7 @@
 	background-color: #FFFFC8;
 }
 body{
-	background:url('img/silverware.jpg');
+	background:url('http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg');
 	background-attachment: fixed;
 }
 h1{

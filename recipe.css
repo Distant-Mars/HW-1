@@ -1,18 +1,25 @@
+/*----设置了一个芝士当背景，就是把制表那个黑圈圈替换掉了！，用list-style把圈圈去掉了！*/
 .cheese{
 	list-style: none;
 	padding-left:20px;
 	background:url('http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif') no-repeat 0 0;
 }
+
+/*--正文部分都用这个text标签的！就是设置那些文字的样式~~~~~~~*/
 .text{
 	color: black;
 	font-size: 11pt;
 	font-family: Georgia;
 }
+
+/*--设置连接的样式！--*/
 .link{
 	color: #A4A400;
 	font-size: 11pt;
 	font-family: Georgia;
 }
+
+/*--设置comment部分的样式！--*/
 .comment{
 	margin-left: 40px;
 	margin-right: 40px;
@@ -20,10 +27,14 @@
 	font-style: italic;
 	background-color: #FFFFC8;
 }
+
+/*----设置背景图片！而且设置为不滚动！---*/
 body{
 	background:url('http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg');
 	background-attachment: fixed;
 }
+
+/*设置标题的样子！其中只有h1是等字母间距的！*/
 h1{
 	text-decoration: underline;
 	letter-spacing: 0.2em;
@@ -42,6 +53,8 @@ h2{
 	background-color: #F0F0F0;
 	color: #A4A400;
 }
+
+/*--把图片连接的下划线去掉~*/
 img{
 	text-decoration: none;
 }

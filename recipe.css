@@ -9,14 +9,14 @@
 .text{
 	color: black;
 	font-size: 11pt;
-	font-family: Georgia;
+	font-family: Georgia, Garamond, serif;
 }
 
 /*--设置连接的样式！--*/
 .link{
 	color: #A4A400;
 	font-size: 11pt;
-	font-family: Georgia;
+	font-family: Georgia, Garamond, serif;
 }
 
 /*--设置comment部分的样式！--*/
@@ -25,6 +25,7 @@
 	margin-right: 40px;
 	font-size: 11pt;
 	font-style: italic;
+	font-weight: normal;
 	background-color: #FFFFC8;
 }
 
@@ -40,7 +41,7 @@ h1{
 	letter-spacing: 0.2em;
 	text-align: center;
 	font-size: 22pt;
-	font-family: Century Gothic;
+	font-family: 'Century Gothic', Futura, Verdana, sans-serif;
 	background-color: #F0F0F0;
 	color: #A4A400;
 }

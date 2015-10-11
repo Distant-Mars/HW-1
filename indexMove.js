@@ -1,7 +1,7 @@
 var clickbool = true;
 var movebool = false;
 var pit = new Array();
-
+var rr = false;
 /* ------jquery函数，大意是文件准备后执行里面的函数，一般用来初始化------*/
 $(document).ready(function() {
 	newGame();
@@ -99,7 +99,8 @@ function over0() {
 		width:"400px",
 		height:"250px",
 		top:220, left:480
-		}, 400);
+		}, 800);
+		rr = true;
 	}
 }
 function over1() {
@@ -115,7 +116,7 @@ function over1() {
 		width:"400px",
 		height:"250px",
 		top:220, left:480
-		}, 400);
+		}, 800);
 	}
 }
 function over2() {
@@ -131,7 +132,7 @@ function over2() {
 		width:"400px",
 		height:"250px",
 		top:220, left:480
-		}, 400);
+		}, 800);
 	}
 }
 function over3() {
@@ -147,7 +148,7 @@ function over3() {
 		width:"400px",
 		height:"250px",
 		top:220, left:480
-		}, 400);
+		}, 800);
 	}
 }
 function over4() {
@@ -163,7 +164,7 @@ function over4() {
 		width:"400px",
 		height:"250px",
 		top:220, left:480
-		}, 400);
+		}, 800);
 	}
 }
 function over5() {
@@ -179,7 +180,7 @@ function over5() {
 		width:"400px",
 		height:"250px",
 		top:220, left:480
-		}, 400);
+		}, 800);
 	}
 }
 /*--------------------------*/
@@ -188,6 +189,7 @@ function over5() {
 /*-------鼠标离开的行为------*/
 function out0() {
 	if (movebool) {
+		if (rr) {
 			var inin = $("#contain0");
 			inin.animate({
 			width:"35px",
@@ -210,6 +212,8 @@ function out0() {
 				}, 400);
 				pit[0] = 1;
 			}
+			rr = false;
+		}
 	}
 }
 function out1() {

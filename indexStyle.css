@@ -2,7 +2,9 @@
 a{
 	text-decoration: none;
 }
-
+body{
+	background: url("img/background.jpg");
+}
 em{
 	color: white;
 	font-size: 18pt;
